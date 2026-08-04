@@ -1,0 +1,105 @@
+## 📘 SQL Notes – Topic 1: Introduction to SQL
+What is SQL?
+Definition
+SQL (Structured Query Language) is a standard programming language used to communicate with relational databases. It helps us store, retrieve, update, and delete data from a database.
+SQL is a language that allows us to interact with a database.
+
+
+## Using SQL, we can:
+
+Create databases and tables
+Insert data
+Retrieve data
+Update records
+Delete records
+Analyze data
+Real-Life Example
+
+## Imagine a school stores information about students.
+
+Student ID	Name	Course	Marks
+101	Riya	BCA	85
+102	Rahul	B.Tech	90
+103	Anjali	BCA	78
+
+## If the principal wants to:
+
+Find students who scored more than 80 marks
+Add a new student
+Update a student's marks
+Delete a student's record
+
+## All these tasks can be done using SQL.
+## Why Do We Use SQL?
+
+SQL is used because it makes managing large amounts of data easy.
+
+
+##Uses of SQL
+
+Store data
+Search data quickly
+Update information
+Delete unnecessary records
+Generate reports
+Analyze business data
+Features of SQL
+Easy to learn
+Simple English-like commands
+Fast data retrieval
+Works with large databases
+Supports data analysis
+Used in almost every company
+
+
+## How SQL Works
+User
+   │
+   ▼
+SQL Query
+   │
+   ▼
+Database
+   │
+   ▼
+Result
+
+## Example
+## You write:
+
+SELECT * FROM Students;
+
+## Database returns:
+
+Student ID	Name	     Course
+101   	    Riya	     BCA
+102         Prashant	 B.Tech
+103	        Anjali	    BCA
+
+
+## ADVANTAGES OF SQL---------
+
+Easy to understand
+Fast execution
+Handles millions of records
+Standard language
+Supports data security
+Useful for reporting and analytics
+ 
+
+## LIMITATIONS OF SQL--------
+
+Cannot create complete applications by itself
+Different databases may have slightly different SQL syntax
+Complex queries can be difficult for beginners
+
+
+## IMPORTANT KEYWORDS-------
+
+Term    	   Meaning
+SQL     	   Structured Query Language
+Database	   Collection of related data
+Table	Data   stored in rows and columns
+Row	One      complete record
+Column	     One type of information
+Record	     Another name for a row
