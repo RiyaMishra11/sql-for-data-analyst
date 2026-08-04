@@ -1,5 +1,7 @@
 ## 📘 SQL Notes – Topic 1: Introduction to SQL
+
 What is SQL?
+
 Definition
 SQL (Structured Query Language) is a standard programming language used to communicate with relational databases. It helps us store, retrieve, update, and delete data from a database.
 SQL is a language that allows us to interact with a database.
@@ -17,10 +19,10 @@ Real-Life Example
 
 ## Imagine a school stores information about students.
 
-Student ID	Name	Course	Marks
-101	Riya	BCA	85
-102	Rahul	B.Tech	90
-103	Anjali	BCA	78
+Student ID	  Name	Course	  Marks
+101	        Riya	  BCA  	   85
+102	        Tushar   B.Tech 	90
+103	        Anjali 	BCA	   78
 
 ## If the principal wants to:
 
@@ -103,3 +105,75 @@ Table	Data   stored in rows and columns
 Row	One      complete record
 Column	     One type of information
 Record	     Another name for a row
+
+
+##[Topic 2: Database, DBMS, RDBMS & Table]
+
+1. What is Data?
+
+## Definition
+Data is a collection of raw facts, figures, or information that can be stored and processed.
+Data means any information that we want to save.
+
+
+## Real-Life Example
+Suppose a college stores student details.
+Student ID	Name	  Age	 Course
+101	      Riya	  21	 BCA
+102         Tushar  22	 B.Tech
+103	      Anjali  20	 BCA
+
+All these values together are called Data.
+
+## Types of Data
+
+1. Numeric Data
+Example
+100
+2500
+98
+
+
+2. Text Data
+Riya
+Delhi
+India
+
+
+3. Date Data
+08-09-2003
+15-08-2026
+
+
+4. Boolean Data
+True
+False
+
+
+2. What is Information?--------
+
+Definition
+Information is processed data that has meaning.
+
+## Example
+Raw Data
+
+85
+90
+76
+
+
+## Processed Information
+Average Marks = 83.67
+Highest Marks = 90
+
+Now the data becomes useful, so it is called Information.
+
+
+## Difference Between Data and Information
+
+Data	             Information
+Raw facts	       Processed data
+No meaning alone	 Meaningful
+Input          	 Output
+Example: 85	       Average Marks = 83
