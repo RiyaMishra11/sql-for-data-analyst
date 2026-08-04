@@ -1,13 +1,20 @@
-## 📘 SQL Notes – Topic 1: Introduction to SQL
+╔══════════════════════════════════════╗
+        📘 SQL NOTES
+╚══════════════════════════════════════╝
+╔══════════════════════════════════════╗
+   📦LECTURE 01: INTRODUCTION TO SQL
+╚══════════════════════════════════════╝
 
-What is SQL?
+
+## What is SQL?---------
 
 Definition
 SQL (Structured Query Language) is a standard programming language used to communicate with relational databases. It helps us store, retrieve, update, and delete data from a database.
 SQL is a language that allows us to interact with a database.
 
 
-## Using SQL, we can:
+─────────────────────────────────────────
+## Using SQL, we can:-------
 
 Create databases and tables
 Insert data
@@ -15,29 +22,31 @@ Retrieve data
 Update records
 Delete records
 Analyze data
-Real-Life Example
 
-## Imagine a school stores information about students.
+## Real-Life Example
+
+## Imagine a school stores information about students.-------
 
 Student ID	  Name	Course	  Marks
 101	        Riya	  BCA  	   85
 102	        Tushar   B.Tech 	90
 103	        Anjali 	BCA	   78
+─────────────────────────────────────────────────────────────────
 
-## If the principal wants to:
+## If the principal wants to:--------
 
 Find students who scored more than 80 marks
 Add a new student
 Update a student's marks
 Delete a student's record
 
-## All these tasks can be done using SQL.
-## Why Do We Use SQL?
+## All these tasks can be done using SQL-----
+## Why Do We Use SQL?-----
 
 SQL is used because it makes managing large amounts of data easy.
 
 
-##Uses of SQL
+## Uses of SQL-------
 
 Store data
 Search data quickly
@@ -53,8 +62,8 @@ Works with large databases
 Supports data analysis
 Used in almost every company
 
-
-## How SQL Works
+─────────────────────────────────────────
+## How SQL Works--------
 User
    │
    ▼
@@ -66,19 +75,20 @@ Database
    ▼
 Result
 
-## Example
+## Example-------
 ## You write:
 
 SELECT * FROM Students;
 
-## Database returns:
+─────────────────────────────────────────
+## Database returns:-----
 
 Student ID	Name	     Course
 101   	    Riya	     BCA
 102         Prashant	 B.Tech
 103	        Anjali	    BCA
 
-
+─────────────────────────────────────────
 ## ADVANTAGES OF SQL---------
 
 Easy to understand
@@ -88,14 +98,14 @@ Standard language
 Supports data security
 Useful for reporting and analytics
  
-
+─────────────────────────────────────────
 ## LIMITATIONS OF SQL--------
 
 Cannot create complete applications by itself
 Different databases may have slightly different SQL syntax
 Complex queries can be difficult for beginners
 
-
+─────────────────────────────────────────
 ## IMPORTANT KEYWORDS-------
 
 Term    	   Meaning
@@ -105,9 +115,12 @@ Table	Data   stored in rows and columns
 Row	One      complete record
 Column	     One type of information
 Record	     Another name for a row
+──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
 
+╔══════════════════════════════════════╗
+📦LECTURE 02: DATABASE, DBMS, & TABLE
+╚══════════════════════════════════════╝
 
-##[Topic 2: Database, DBMS, RDBMS & Table]
 
 1. What is Data?
 
@@ -124,7 +137,7 @@ Student ID	Name	  Age	 Course
 103	      Anjali  20	 BCA
 
 All these values together are called Data.
-
+─────────────────────────────────────────
 ## Types of Data
 
 1. Numeric Data
@@ -133,13 +146,13 @@ Example
 2500
 98
 
-
+─────────────────────────────────────────
 2. Text Data
 Riya
 Delhi
 India
 
-
+─────────────────────────────────────────
 3. Date Data
 08-09-2003
 15-08-2026
@@ -148,32 +161,262 @@ India
 4. Boolean Data
 True
 False
-
+──────────────────────────────────────────────────────────────────────────────
 
 2. What is Information?--------
 
 Definition
 Information is processed data that has meaning.
 
-## Example
-Raw Data
+## Example------
 
+Raw Data
 85
 90
 76
 
+─────────────────────────────────────────
+## Processed Information-------
 
-## Processed Information
 Average Marks = 83.67
 Highest Marks = 90
 
 Now the data becomes useful, so it is called Information.
 
-
-## Difference Between Data and Information
+─────────────────────────────────────────
+## Difference Between Data and Information------
 
 Data	             Information
 Raw facts	       Processed data
 No meaning alone	 Meaningful
 Input          	 Output
 Example: 85	       Average Marks = 83
+
+──────────────────────────────────────────────────────────────────────────────
+
+3. What is a Database------
+Definition
+
+A Database is an organized collection of related data stored electronically.
+A database is a place where data is stored in an organized manner.
+
+Real-Life Example------
+
+Imagine a hospital.
+Instead of writing patient details in notebooks, the hospital stores all records in a database.
+
+Example
+Patient ID	Name	Disease
+ 1	         Riya	 Fever
+ 2	         Rahul	 Cold
+ 3	          Amit	 Diabetes
+
+This entire collection is called a Database.
+
+─────────────────────────────────────────
+## Characteristics of Database-----
+Organized
+Easy to search
+Secure
+Easy to update
+Reduces duplicate data
+Can store millions of records
+
+─────────────────────────────────────────
+## Advantages------
+
+✅ Fast searching
+
+✅ Better security
+
+✅ Data sharing
+
+✅ Backup possible
+
+✅ Less redundancy
+
+
+──────────────────────────────────────────────────────────────────────────────
+
+4. What is DBMS?-------
+
+(DBMS = Database Management System)
+
+## Definition----
+A DBMS is software used to create, manage, and maintain databases.
+DBMS is software that helps users work with databases.
+Without DBMS, managing millions of records would be very difficult.
+
+## Real-Life Example------
+
+Imagine a library.
+
+Books = Data
+
+Library = Database
+
+Librarian = DBMS
+
+─────────────────────────────────────────
+## The librarian helps you:---
+Find books
+Add books
+Remove books
+Update books
+
+─────────────────────────────────────────
+Similarly,
+
+DBMS helps manage databases.----
+
+## Examples of DBMS-------
+MySQL
+PostgreSQL
+Oracle Database
+SQL Server
+SQLite
+
+─────────────────────────────────────────
+## Functions of DBMS----
+Create Database
+
+## Example----
+College Database
+
+─────────────────────────────────────────
+## Store Data------
+
+Student details
+
+Teacher details
+
+Course details
+
+─────────────────────────────────────────
+## Update Data------
+
+Change student address.
+
+─────────────────────────────────────────
+## Delete Data----
+
+Remove graduated students.
+
+─────────────────────────────────────────
+## Search Data-----
+
+Find students with marks greater than 80.
+
+─────────────────────────────────────────
+## Security------
+
+Only authorized users can access the database.
+
+─────────────────────────────────────────
+## Backup--------
+
+Recover lost data.
+
+─────────────────────────────────────────
+## Advantages of DBMS----
+
+Better security
+Data consistency
+Easy backup
+Faster searching
+Multi-user support
+
+─────────────────────────────────────────
+## Disadvantages-----
+Expensive
+Requires training
+Large systems need powerful hardware
+
+
+──────────────────────────────────────────────────────────────────────────────
+## 5. What is RDBMS?-------
+
+(Relational Database Management System)
+RDBMS stores data in the form of tables.
+
+The tables are related to each other using keys.
+An RDBMS is a type of DBMS where data is stored in rows and columns, and tables can be connected using relationships.
+
+## Examples of RDBMS---
+PostgreSQL
+MySQL
+Oracle Database
+SQL Server
+
+
+─────────────────────────────────────────
+## Features----
+
+Stores data in tables
+Supports relationships
+Reduces redundancy
+Uses Primary Key and Foreign Key
+Supports SQL
+
+
+──────────────────────────────────────────────────────────────────────────────
+## 6. What is a Table?------
+A table is a collection of related data arranged in rows and columns.
+
+## Example------
+## Employee Table----
+
+Employee_ID	     Name	       Salary	  Department
+   1	           Riya	        45000	   HR
+   2             Rahul	        55000	   IT
+   3	           Amit	        50000	   Finance
+  
+
+─────────────────────────────────────────
+## Row-----
+
+A row represents one complete record.
+
+## Example---
+
+1 | Riya | 45000 | HR
+
+This entire line is one row.
+
+
+─────────────────────────────────────────
+## Column---
+
+A column stores one type of information.
+
+## Example---
+
+Salary
+
+This column stores only salary values.
+
+
+─────────────────────────────────────────
+## Record-----
+
+A record means one row.
+
+
+─────────────────────────────────────────
+## Field-----
+
+A field means one single value.
+
+Example
+
+45000
+
+─────────────────────────────────────────
+## Difference----
+
+Term         	Meaning
+Table       	Collection of rows and columns
+Row	         One complete record
+Column	      One type of information
+Field	         Single value
+Record	       Same as row
