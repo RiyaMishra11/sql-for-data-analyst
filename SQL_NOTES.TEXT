@@ -446,6 +446,7 @@ View all students → SELECT
 All these are SQL commands.
 
 
+─────────────────────────────────────────
 ## Types of SQL Commands-----
 
 ####SQL commands are divided into 5 categories:------
@@ -458,12 +459,14 @@ DCL	       Data Control Language	       Control user permissions
 TCL	       Transaction Control Language    Manage transactions
 
 
+──────────────────────────────────────────────────────────────────────────────
 ## 1. DDL (Data Definition Language)------
 ## Definition----
 
 DDL commands are used to create, modify, and delete database objects like databases and tables.
 DDL changes the structure of the database.
 
+─────────────────────────────────────────
 ## Commands in DDL------
 CREATE
 ALTER
@@ -475,6 +478,7 @@ Definition
 
 The CREATE command is used to create a new database or a new table.
 
+─────────────────────────────────────────
 ## Syntax-----
 (Create Database)
 CREATE DATABASE CollegeDB;
