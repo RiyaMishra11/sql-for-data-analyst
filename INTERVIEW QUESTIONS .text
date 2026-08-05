@@ -24,3 +24,101 @@ Microsoft SQL Server
 SQLite
 Summary
 
+Q. What is a Database?
+Answer
+
+A database is an organized collection of related data stored electronically so that it can be easily accessed, managed, updated, and retrieved.
+
+4. What is DBMS?
+
+(DBMS = Database Management System)
+
+Definition
+
+A DBMS is software used to create, manage, and maintain databases.
+
+Easy Definition
+
+DBMS is software that helps users work with databases.
+
+Without DBMS, managing millions of records would be very difficult.
+
+Real-Life Example
+
+Imagine a library.
+
+Books = Data
+
+Library = Database
+
+Librarian = DBMS
+
+The librarian helps you:
+
+Find books
+Add books
+Remove books
+Update books
+
+Similarly,
+
+DBMS helps manage databases.
+
+Examples of DBMS
+MySQL
+PostgreSQL
+Oracle Database
+SQL Server
+SQLite
+
+Q. What is DBMS?
+Answer
+
+A Database Management System (DBMS) is software that allows users to create, manage, update, retrieve, and secure data stored in databases.
+
+5. What is RDBMS?
+
+(Relational Database Management System)
+
+Definition
+
+RDBMS stores data in the form of tables.
+
+The tables are related to each other using keys.
+
+What is RDBMS?
+Answer
+
+An RDBMS is a type of DBMS that stores data in tables and establishes relationships between those tables using keys such as Primary Key and Foreign Key.
+
+Q. Difference between DBMS and RDBMS?
+Answer
+
+DBMS manages databases but may not support relationships between data. RDBMS stores data in related tables using Primary Keys and Foreign Keys, making it more secure and efficient.
+
+6. What is a Table?
+Definition
+
+A table is a collection of related data arranged in rows and columns.
+
+1. What is a table?
+
+Answer:
+A table is a collection of related data organized into rows and columns in a database.
+
+2. What is the difference between a row and a column?
+
+Answer:
+A row represents one complete record, while a column represents one attribute (or field) of all records.
+
+Example:
+In an Employee table:
+
+Row → 1 | Riya | 45000 | HR
+Column → Salary contains all employees' salary values.
+
+3. What is a field?
+
+Answer:
+A field is a single data value stored in a cell of a table. For example, 45000 in the Salary column is a field.
+
