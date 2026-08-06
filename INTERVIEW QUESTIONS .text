@@ -159,4 +159,11 @@ Q. What is the purpose of SELECT?
 Answer:
 SELECT is used to retrieve data from one or more tables based on specified conditions.
 
+Q. What is the difference between GRANT and REVOKE?
+
+Answer:
+GRANT provides permissions to users, while REVOKE removes previously granted permissions.
+
+
+
 
