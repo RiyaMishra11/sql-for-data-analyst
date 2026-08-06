@@ -122,3 +122,41 @@ Column → Salary contains all employees' salary values.
 Answer:
 A field is a single data value stored in a cell of a table. For example, 45000 in the Salary column is a field.
 
+Q. What is the CREATE command?
+
+Answer:
+The CREATE command is a DDL command used to create new database objects such as databases, tables, views, and indexes.
+
+Q. Why do we use ALTER?
+
+Answer:
+ALTER is used to modify the structure of an existing table without deleting the table or its data.
+
+Q. What does DROP delete?
+
+Answer:
+DROP deletes both the table structure and all data stored in the table.
+
+Q. What is TRUNCATE?
+
+Answer:
+TRUNCATE removes all rows from a table but keeps the table structure for future use.
+
+Q. What is INSERT used for?
+
+Answer:
+The INSERT command is used to add one or more new rows into a table.
+
+Interview Question
+
+Q. What happens if WHERE is omitted in UPDATE?
+
+Answer:
+All rows in the table will be updated, which may lead to accidental data modification.
+
+Q. What is the purpose of SELECT?
+
+Answer:
+SELECT is used to retrieve data from one or more tables based on specified conditions.
+
+
