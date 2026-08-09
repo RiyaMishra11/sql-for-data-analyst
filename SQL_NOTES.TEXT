@@ -640,6 +640,20 @@ Student_ID	Course
 
 
 ─────────────────────────────────────────────────
+DELETE Command----
+Definition-----
 
+DELETE removes specific records from a table.
+
+Example-----
+DELETE FROM Students
+WHERE Student_ID = 101;
+Result
+
+Only the student with ID 101 is deleted.
+
+Important Note------
+
+⚠️ Without WHERE, every row in the table will be deleted.
 
 
