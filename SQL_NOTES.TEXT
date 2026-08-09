@@ -640,40 +640,40 @@ Student_ID	Course
 
 
 ─────────────────────────────────────────────────
-DELETE Command----
-Definition-----
+## DELETE Command----
+## Definition-----
 
 DELETE removes specific records from a table.
 
-Example-----
+## Example-----
 DELETE FROM Students
 WHERE Student_ID = 101;
 Result
 
 Only the student with ID 101 is deleted.
 
-Important Note------
+## Important Note------
 
 ⚠️ Without WHERE, every row in the table will be deleted.
 
 ─────────────────────────────────────────────────
 
-3. DQL (Data Query Language)----=--
-Definition-------
+## 3. DQL (Data Query Language)----=--
+## Definition-------
 
 DQL is used to retrieve data from the database.
 
 Main Command
 SELECT
 SELECT Command
-Definition
 
+## Definition------
 SELECT retrieves data from one or more tables.
 
-Example------
+## Example------
 SELECT * FROM Students;
 
-Result--------
+## Result--------
 
 Displays all columns and all rows.
 Select Specific Columns
@@ -682,8 +682,8 @@ FROM Students;
 
 
 ─────────────────────────────────────────────────
-4. DCL (Data Control Language)----
-Definition------
+## 4. DCL (Data Control Language)----
+## Definition------
 
 DCL commands control user access and permissions in a database.
 
@@ -693,11 +693,11 @@ REVOKE
 
 ─────────────────────────────────────────────────
 
-GRANT Command------
+## GRANT Command------
 
 Used to give permissions to users.
 
-Example-----
+## Example-----
 GRANT SELECT ON Students TO Rahul;
 
 This allows the user Rahul to read data from the Students table.
@@ -705,27 +705,27 @@ This allows the user Rahul to read data from the Students table.
 
 ─────────────────────────────────────────────────
 
-REVOKE Command-----
+## REVOKE Command-----
 
 Used to remove permissions.
 
-Example-----
+## Example-----
 REVOKE SELECT ON Students FROM Rahul;
 
 Now Rahul can no longer read the Students table.
 
 ─────────────────────────────────────────────────
 
-5. TCL (Transaction Control Language)-------
-What is a Transaction?-------
+## 5. TCL (Transaction Control Language)-------
+## What is a Transaction?-------
 
 A transaction is a group of SQL operations treated as a single unit of work.
 
-Real-Life Example--------
+## Real-Life Example--------
 
 Suppose you transfer ₹5,000 from one bank account to another.
 
-Steps:------
+## Steps:------
 Deduct ₹5,000 from Account A.
 Add ₹5,000 to Account B.
 
@@ -733,19 +733,19 @@ If the second step fails, the first step should also be cancelled. This ensures 
 
 ─────────────────────────────────────────────────
 
-TCL Commands------
+## TCL Commands------
 COMMIT
 ROLLBACK
 SAVEPOINT
 
 ─────────────────────────────────────────────────
 
-COMMIT-------
-Definition-------
+## COMMIT-------
+## Definition-------
 
 COMMIT permanently saves all changes made during a transaction.
 
-Example
+## Example-----
 UPDATE Accounts
 SET Balance = Balance - 5000
 WHERE Account_ID = 101;
@@ -756,12 +756,12 @@ Now the changes are permanently stored.
 
 ─────────────────────────────────────────────────
 
-ROLLBACK----
-Definition-----
+## ROLLBACK----
+## Definition-----
 
 ROLLBACK undoes changes made after the last COMMIT.
 
-Example----
+## Example----
 UPDATE Students
 SET Course = 'MCA';
 
@@ -772,19 +772,19 @@ The update is cancelled.
 
 ─────────────────────────────────────────────────
 
-SAVEPOINT------
-Definition----
+## SAVEPOINT------
+## Definition----
 
 SAVEPOINT creates a checkpoint inside a transaction.
 
-Example-----
-SAVEPOINT Step1;
+## Example-----
+## SAVEPOINT Step1;
 
 If something goes wrong later, you can roll back to this point instead of undoing the entire transaction.
 
 ─────────────────────────────────────────────────
 
-Difference: COMMIT vs ROLLBACK
+## Difference: COMMIT vs ROLLBACK-------
 
 COMMIT	                                  ROLLBACK
 Saves changes permanently	          Cancels uncommitted changes
