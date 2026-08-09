@@ -693,3 +693,12 @@ REVOKE
 
 ─────────────────────────────────────────────────
 
+GRANT Command------
+
+Used to give permissions to users.
+
+Example-----
+GRANT SELECT ON Students TO Rahul;
+
+This allows the user Rahul to read data from the Students table.
+
