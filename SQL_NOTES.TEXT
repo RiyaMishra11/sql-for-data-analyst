@@ -755,3 +755,19 @@ COMMIT;
 Now the changes are permanently stored.
 
 ─────────────────────────────────────────────────
+
+ROLLBACK----
+Definition-----
+
+ROLLBACK undoes changes made after the last COMMIT.
+
+Example----
+UPDATE Students
+SET Course = 'MCA';
+
+ROLLBACK;
+
+The update is cancelled.
+
+
+─────────────────────────────────────────────────
