@@ -682,5 +682,14 @@ FROM Students;
 
 
 ─────────────────────────────────────────────────
+4. DCL (Data Control Language)----
+Definition------
 
+DCL commands control user access and permissions in a database.
+
+Commands
+GRANT
+REVOKE
+
+─────────────────────────────────────────────────
 
