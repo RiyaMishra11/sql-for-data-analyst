@@ -714,3 +714,28 @@ REVOKE SELECT ON Students FROM Rahul;
 
 Now Rahul can no longer read the Students table.
 
+─────────────────────────────────────────────────
+
+5. TCL (Transaction Control Language)-------
+What is a Transaction?-------
+
+A transaction is a group of SQL operations treated as a single unit of work.
+
+Real-Life Example--------
+
+Suppose you transfer ₹5,000 from one bank account to another.
+
+Steps:------
+Deduct ₹5,000 from Account A.
+Add ₹5,000 to Account B.
+
+If the second step fails, the first step should also be cancelled. This ensures data remains correct.
+
+─────────────────────────────────────────────────
+
+TCL Commands------
+COMMIT
+ROLLBACK
+SAVEPOINT
+
+─────────────────────────────────────────────────
