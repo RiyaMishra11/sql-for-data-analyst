@@ -702,3 +702,15 @@ GRANT SELECT ON Students TO Rahul;
 
 This allows the user Rahul to read data from the Students table.
 
+
+─────────────────────────────────────────────────
+
+REVOKE Command-----
+
+Used to remove permissions.
+
+Example-----
+REVOKE SELECT ON Students FROM Rahul;
+
+Now Rahul can no longer read the Students table.
+
