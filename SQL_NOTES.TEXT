@@ -739,3 +739,19 @@ ROLLBACK
 SAVEPOINT
 
 ─────────────────────────────────────────────────
+
+COMMIT-------
+Definition-------
+
+COMMIT permanently saves all changes made during a transaction.
+
+Example
+UPDATE Accounts
+SET Balance = Balance - 5000
+WHERE Account_ID = 101;
+
+COMMIT;
+
+Now the changes are permanently stored.
+
+─────────────────────────────────────────────────
