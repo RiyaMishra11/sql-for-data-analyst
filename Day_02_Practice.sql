@@ -7,7 +7,8 @@ order_name char (50),
 date date,
 location char (50)
 	);
-
+INSERT INTO orders(order_id,order_name,date,location)
+VALUES(101,'laptop','2026-6-18','noida');
 
 
 
