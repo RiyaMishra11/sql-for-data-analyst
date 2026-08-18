@@ -9,8 +9,7 @@ location char (50)
 	);
 
 
-INSERT INTO orders(order_id,order_name,date,location)
-VALUES(101,'laptop','2026-6-18','noida');
+
 
 INSERT INTO orders(order_id,order_name,date,location)
 VALUES(102,'phone','2026-6-19','delhi'),
