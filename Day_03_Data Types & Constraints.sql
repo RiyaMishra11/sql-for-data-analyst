@@ -21,7 +21,7 @@ values (14,30.03,5555),
 (15,40.03,666),
 (16,20.02,777);
 
-select * from numbers ;
+
 
 /* 
 Character / String Data Types
