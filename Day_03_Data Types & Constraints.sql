@@ -9,12 +9,7 @@ Numeric Data Types
 7. SERIAL (AUTO INCREMENT INTEGER)
 */
 
-CREATE TABLE numbers(
-IDs serial,
-age smallint,
-price numeric(4,2),
-rating real
-);
+
 
 insert into numbers (age,price,rating)
 values (14,30.03,5555),
