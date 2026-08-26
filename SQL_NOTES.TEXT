@@ -800,24 +800,6 @@ Used after successful transaction	  Used when an error occurs
 
 
 
-ADVANCE VERSION OF lower() .
-IT IS BETTER FOR UNICODE TEXT.
-
-STRING FORMATTING :- 
-
-METHOD 1 (OLD) :- 
-EX :- name = “Prashant”
-print(“Hello” , name)
-
-METHOD 2 (.format()) :- 
-EX :- name = “Prashant”
-Age = 21
-print(“My name is {} and I am {} years old .”.format(name,Age))
-
-METHOD 3 (f-string) :- 
-EX :- name = “Prashant”
-         Age = 21
-         print(f “My name is {name} and I am {age} year old .”)
 
 
 
