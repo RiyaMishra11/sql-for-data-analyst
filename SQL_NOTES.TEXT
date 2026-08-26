@@ -792,3 +792,24 @@ Cannot be undone	                  Restores previous state
 Used after successful transaction	  Used when an error occurs
 
 ─────────────────────────────────────────────────
+
+
+
+
+
+
+
+
+
+
+TRIPLE DOUBLE QUOTES - “””RIYA
+TIWARI
+B.TECH “””
+(THIS IS USED WHEN WE HAVE TO WRITE MULTI-LINE STRING)
+
+BASIC BUILT-IN STRING FUNCTIONS : 
+split() :- 
+SPLIT FUNCTION IS USED TO CONVERT STRING INTO LIST .
+
+join() :- 
+JOIN FUNCTION IS USED TO CONVERT LIST INTO STRING.
