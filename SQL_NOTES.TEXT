@@ -927,6 +927,48 @@ Used after successful transaction	  Used when an error occurs
 
 ─────────────────────────────────────────────────
 
+Now the changes are permanently stored.
+
+─────────────────────────────────────────────────
+
+## ROLLBACK----
+## Definition-----
+
+ROLLBACK undoes changes made after the last COMMIT.
+
+## Example----
+UPDATE Students
+SET Course = 'MCA';
+
+ROLLBACK;
+
+The update is cancelled.
+
+
+─────────────────────────────────────────────────
+
+## SAVEPOINT------
+## Definition----
+
+SAVEPOINT creates a checkpoint inside a transaction.
+
+## Example-----
+## SAVEPOINT Step1;
+
+If something goes wrong later, you can roll back to this point instead of undoing the entire transaction.
+
+─────────────────────────────────────────────────
+
+## Difference: COMMIT vs ROLLBACK-------
+
+COMMIT	                                  ROLLBACK
+Saves changes permanently	          Cancels uncommitted changes
+Cannot be undone	                  Restores previous state
+Used after successful transaction	  Used when an error occurs
+
+─────────────────────────────────────────────────
+
+
 
 
 
