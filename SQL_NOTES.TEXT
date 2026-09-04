@@ -801,6 +801,13 @@ Used after successful transaction	  Used when an error occurs
 
 
 
+## Difference: COMMIT vs ROLLBACK-------
+
+COMMIT	                                  ROLLBACK
+Saves changes permanently	          Cancels uncommitted changes
+Cannot be undone	                  Restores previous state
+Used after successful transaction	  Used when an error occurs
+
 
 
 
