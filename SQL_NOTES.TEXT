@@ -812,6 +812,11 @@ COMMIT	                                  ROLLBACK
 Saves changes permanently	          Cancels uncommitted changes
 Cannot be undone	                  Restores previous state
 Used after successful transaction	  Used when an error occurs
+COMMIT	                                  ROLLBACK
+Saves changes permanently	          Cancels uncommitted changes
+Cannot be undone	                  Restores previous state
+Used after successful transaction	  Used when an error occurs
+
 
 
 
